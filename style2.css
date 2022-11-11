@@ -1,0 +1,707 @@
+
+
+
+
+body{
+	margin: 0px;
+}
+
+#portfolio{
+	background-color: white;
+	border-radius: 20px;
+	height: 40%;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#resume{
+	height: 80%;
+	width: 50%;
+}
+
+#desc{
+	font-size: 30px;
+	height: auto;
+	width: 50%;
+}
+
+#navigation{
+	position:fixed;
+	background-color: black;
+	align-items: center;
+	/*right: 20%;
+	left: 20%;*/
+	padding-left: -10px;
+	right: 0%;
+	top: 20%;
+	bottom: 20%;
+	height: 40%;
+	/*width: 10%;*/
+	width: auto;
+	text-align: justify;
+     
+}
+
+header{
+	background-image: url(https://i.pinimg.com/originals/a0/e0/02/a0e002739ac0a9dd2bfc59b90424998a.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+	text-align: center;
+	opacity: 0.8;
+    color: white;
+	font-size: 25px;
+   margin-bottom: 0px;
+   margin-top: -100px;
+   top: 0%;
+}
+
+#tags{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul li a:hover{
+	color: lightgrey;
+	border-bottom: 1px solid white;
+	transition: color 0.5s, border-bottom 4s; 
+}
+
+#tags2{
+	list-style: none;
+}
+
+#tags li{
+    text-align: center;
+	margin: 4px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#name {
+	color: white;
+	font-size: 50px;
+    margin: 100px;
+    text-align: center;
+}
+
+
+#tags2 li{
+	text-shadow: rgba(230,196196,0.3);
+	display: inline;
+	margin: 4px;
+}
+
+#tags2 li a img{
+	padding: 10px;
+	font-size: 1rem;
+	border radius: 50%;
+
+
+}
+
+#tags2 li a img:hover{
+	box-shadow: 0px 0px 6px 4px red;
+}
+
+div img{
+	border: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 5px ;
+
+}
+
+#about b{
+	color: #2857a4;
+}
+
+#about{
+	color: grey;
+	text-align: justify;
+/*	margin-top: 10px;*/
+	border: 10px;
+	border-color: red;
+	
+}
+
+#about{
+
+}
+
+
+#skills{
+	/*background: linear-gradient(to top right,pink,deeppink);*/
+	/*background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s106-pa-pm-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f1c49c8be92441db8faaea57f2d94edf");*/
+	/*background-repeat: no-repeat;*/
+	background: linear-gradient(to top right,slateblue,darkblue 50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+ 	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: white;
+	display: inlinr-block;
+	padding top: 10px;
+	margin-right: 0.5rem;
+}
+
+#skills .section-heading span{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+
+.skills-display{
+	width: 70%;
+	border-radius: 25px;
+	/*height: 100px;
+	border: 2px solid black;*/
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+}
+
+.skill-progress{
+	text-align: center;
+	width: 9rem;
+	font-color: white;
+	border: 2px solid black;
+	border-radius: 0.8rem;
+	height: 1.4rem ;
+	margin: 40px;
+background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-transform: bold;
+}
+
+.skill-progress #C1{
+	height: 100%;
+	width: 80%;
+    color: white;
+	background-color: blue;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+
+.skill-progress #html{
+	height: 100%;
+	width: 70%;
+    color: white;
+	background-color: orange;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+
+.skill-progress #css{
+	height: 100%;
+	width: 50%;
+    color: white;
+	background-color: greenyellow;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+.skill-progress #java{
+	height: 100%;
+	width: 50%;
+    color: white;
+	background-color: deeppink;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+.skill-progress #C2{
+	height: 100%;
+	width: 80%;
+    color: white;
+	background-color: deepskyblue;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+.skill-progress #js{
+	height: 100%;
+	width: 50%;
+    color: white;
+	background-color: darkviolet;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+#contact{
+   background: linear-gradient(to top right,#2857a4,#403066 70%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+/*#line{
+	border-bottom: 7px;
+	border-color: white;
+}*/
+
+#noBorder{
+	border-width: 0px 0px 3px;
+	border-color: white;
+	background: inherit;
+	width: 250%;
+	color: white;
+}
+
+#send 
+{
+	font-size: 1.2rem;
+	background: inherit;
+	color: white;
+	text-transform: bold;
+	border-color: white;
+}
+
+#contact .section-heading span{
+	color: white;
+}
+
+#socia{
+	color: white;
+	display: inline;
+	width: 50%;
+}
+
+#socia b{
+	font-size: 20px;
+}
+
+#socia p{
+	font-size: 15px;
+}
+
+#row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#project .section-heading span{
+	color: black;
+}
+
+
+#project{
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background: linear-gradient(to right,lightgreen,greenyellow);
+}
+
+#project p{
+	color: deeppink;
+	font-size: 30px;
+}
+
+
+#about{
+	/*background-color: lightgrey;*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	/*background: linear-gradient(to top right,pink,deeppink 90%);*/
+   /*	background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s106-pa-pm-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f1c49c8be92441db8faaea57f2d94edf");*/
+	background-color: #ea3232;
+	color: white;
+	font-size: 27px;
+	padding-bottom: 50px;
+	margin-top: -90px;
+	
+}
+
+
+
+#about .section-heading span {
+	color: white;
+    font-size: 60px;
+    font-weight: 700;
+     animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+#about #para{
+	border-style: solid;
+	border-width: 0px 0px 5px;
+	border-color: white;
+}
+
+.timeline{
+	position: relative;
+	width: 75%;
+	/*border: 2px solid black;*/
+}
+
+.timeline-box{
+	position: relative;
+	width: 40%;
+	left: 5%;
+	min-height: 150px;
+	/*border: 2px solid black;*/
+	margin: 5px;
+}
+
+.timeline-box:nth-child(2n)
+{
+	left: 53%;
+}
+
+.timeline-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 3px dashed #0096fa6b;
+	top: 10%;
+	left: 50%;
+}
+
+#education .section-heading{
+	background-color: white;
+	border-radius: 25px;
+	margin-bottom: 43px;
+}
+
+#education .section-heading span{
+	color: darkblue;
+	font-size: 50px;
+}
+
+
+#education{
+	/*background: linear-gradient(to top right,pink,deeppink);*/
+	/*background-image: url("https://miro.medium.com/max/1200/1*S8UogculWFLr3lVdLn05MA.jpeg");*/
+	/*background-repeat: no-repeat;*/
+	/*background: linear-gradient(to top right,lightpink,deeppink );*/
+		background-color: deeppink;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: -20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.timeline-box{
+	background-color: #f2eeee;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+	content: '';
+	position: absolute;
+	right: -5.5%;
+	top: 30%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: black;
+	z-index: 1;
+}
+
+
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	position: absolute;
+	left: -8.5%;
+	top: 30%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: black;
+	z-index: 1;
+}
+
+.degree{
+	color: darkblue;
+	text-align: right;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.college{
+	color: darkorange;
+	text-align: right;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.date{
+	color: black;
+	text-align: right;
+	font-size: 12.5px;
+	font-weight: 600;
+}
+
+.data{
+	color: black;
+	text-align: center;
+	    font-size: 20px;
+
+}
+
+
+#clubs{
+	/*background: linear-gradient(to top right,pink,deeppink);*/
+	/*background-image: url("https://miro.medium.com/max/1200/1*S8UogculWFLr3lVdLn05MA.jpeg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-color: #3de84c;*/
+		background-color: #ea3232;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: -37px;
+	padding: 50px 0px;
+}
+
+#clubs .section-heading span{
+	color: darkblue;
+	
+}
+
+#clubs .section-heading{
+	background-color: white;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+
+.club-name{
+	color: darkblue;
+	text-align: right;
+	text-transform: bold;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.position{
+	text-align: right;
+	color: deeppink;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.des{
+	text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.intro{
+	width: 70%;
+	height: auto;
+	background-color: black;
+	border-radius: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+	z-index: 2;
+}
+
+.total-skills{
+	
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	justify-content: space-between;
+	margin: 25px;
+	border-radius: 25px;
+	padding-bottom: 25px;
+
+}
+
+.icons{
+	font-size: 70px;
+}
+
+.timeline-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 3px dashed #0096fa6b;
+	top: 10%;
+	left: 50%;
+
+}
+
+.timeline-traveller{
+	position: sticky;
+	top: 25%;
+	font-size: 25px;
+	transform: rotate(90deg);
+}
+
+@media screen and (max-width: 600px)
+{
+
+   #tags li a{
+   	font-size: 20px;
+   }
+
+	.timeline-divider{
+		left: -5%;
+	}
+    
+    .timeline-box{
+    	left: 12 !important; 
+    	width: 80%;
+
+    }
+
+    
+
+  /*  .timeline-box:nth-child(2n)
+    {
+    	left: 12%;
+    }*/
+
+    .timeline-box:nth-child(2n+1)::after{
+    	left: -12%;
+    }
+
+    .timeline-box:nth-child(2n)::after{
+    	left: -12%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px)
+{
+
+	#row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	header{
+		height: 77vh;
+	}
+
+
+	#tags2 li a{
+		font-size: 30px;
+	}
+
+	#about .section-heading span{
+		font-size: 40px;
+	}
+
+
+
+}
+
+@media screen and (max-width: 628px)
+{
+       header{
+       	height: 80vh;
+       }
+
+       #name span{
+       	font-size: 45px;
+       }
+}
+
+@media screen and (max-width: 601px)
+{
+	 #name span{
+       	font-size: 35px;
+       }
+}
+
+@media screen and (max-width: 529px)
+{
+	#name span{
+       	font-size: 29px;
+       }
+
+       #tags2 li{
+		font-size: 29px;
+	}
+}
+
+
+@media screen and (max-width: 483px)
+{
+	#name span{
+       	font-size: 23px;
+       }
+
+       #tags2 li{
+		font-size: 23px;
+	}
+}
+
+ #about h1,#skills h1 {
+ 
+  
+  overflow: hidden;
+  white-space: nowrap;
+ /* border-right: .17em solid pink;*/
+  animation: typing 5s infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: pink;
+  }
+}
